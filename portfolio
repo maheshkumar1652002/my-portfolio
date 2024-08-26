@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="content"> 
+    <header>
+        <div id="logo">
+            <h2>MAHESH LOVEVANSHI</h2>
+        </div>
+        <div id="headerNav">
+            <a href="#" class="tag">Home</a>
+            <a href="#projects" class="tag">Projects</a>
+            <a href="#certificates" class="tag">Certificates</a>
+            <a href="#education" class="tag">Education</a>
+            <a href="#contact" class="tag">Contact</a>
+        </div>
+    </header>
+    <main>
+        
+        <section>
+            <h1>Hi! I'm MAHESH LOVEVANSHI</h1>
+            <p>
+                Currently pursuing B.E. from MBM University Jodhpur in COMPUTER SCIENCE ENDGINEERING BRANCH.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="wrapper">
+                <div class="card">
+                    <h4>Title</h4>
+                    <img src="" alt="">
+                    <p>Its description</p>
+                </div>
+                <div class="card">
+                    <h4>Title</h4>
+                    <img src="" alt="">
+                    <p>Its description</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <div class="wrapper">
+                
+                <div class="card">
+                    <a href="my_photo.jpg" target="_blank">
+                        <h4>Python Developer</h4>
+                        <img src="python cirtificate.pdf.pdf" alt="Python Developer">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="my_photo.jpg" target="_blank">
+                        <h4>Introduction to HTML and css</h4>
+                        <img src="geekster html css cirtificate.pdf" alt="Introduction to HTMLand css">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="my_photo.jpg" target="_blank">
+                        <h4>ESRC Certificate</h4>
+                        <img src="esrc.pdf" alt="esrc Certificate">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="wrapper">
+                <div class="eduCard">
+                    <h4>B.E. in CSE</h4>
+                    <p>MBM University Jodhpur rajasthan india</p>
+                    <p>October 2022 - June 2026</p>
+                </div>
+                <div class="eduCard">
+                    <h4>12<sup>th</sup> PCM</h4>
+                    <p>JNV atrun baran rajasthan india</p>
+                    <p>April 2020 - March 2021</p>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    <footer>
+        <div id="footerTop">
+            
+            <div>
+                <a href="https://www.linkedin.com/in/mklodha/" target="_blank">LinkedIn</a>
+                <!-- <a href="" class="footerTag">Leetcode</a> -->
+                <a href="https://www.instagram.com/its_lovevanshi_mahesh3/" target="_blank">Instagram</a>
+            </div>
+            <div id="contact">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Message">
+                <button>Submit</button>
+            </div>
+            
+        </div>
+        <h4 id="description">This template is made in &hearts; by MAHESH LOVEVANSHI</h4>
+    </footer>
+</div>
+</body>
+</html>
